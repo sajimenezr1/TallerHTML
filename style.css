@@ -1,0 +1,23 @@
+#principalBarra{
+    color : whitesmoke;
+}
+
+#miNombre{
+    color: whitesmoke;
+    font-size: medium;
+}
+
+#leftCol{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#rightCol{
+    background-color: gainsboro;
+}
+
+#advise{
+    text-align: center;
+    font-size: small;
+    font-family: Verdana;
+}
