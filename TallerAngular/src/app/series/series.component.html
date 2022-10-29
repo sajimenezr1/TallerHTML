@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+      <div class="col-4">
+          <h1>TV Series</h1>
+          <table class = "table table-light">
+              <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Chanel</th>
+                      <th scope="col">Seasons</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor = "let s of series" class = "table-secondary">
+                    <td>{{s.id}}</td>
+                    <td><a href = {{s.webpage}}>{{s.name}}</a></td>
+                    <td>{{s.channel}}</td>
+                    <td>{{s.seasons}}</td>
+                  </tr>
+              </tbody>
+          </table>
+          <p> Seasons average: {{averageSeasons}}</p>
+      </div>
+  </div>
+</div>
